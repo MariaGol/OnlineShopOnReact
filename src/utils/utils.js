@@ -14,3 +14,9 @@ export const calcPriceAndCount = (state) => {
   state.totalCount = count;
   state.totalPriceSale = sumPrice;
 };
+
+const genderArr = [
+  { value: "male", text: "Мужской" },
+  { value: "female", text: "Женский" },
+];
+export { genderArr };

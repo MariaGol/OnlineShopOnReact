@@ -4,6 +4,8 @@ import Main from "./pages/Main";
 import FullPizza from "./pages/FullPizza";
 import Basket from "./pages/Basket";
 import ModalContent from "./pages/ModalContent";
+import Login from "./pages/Login";
+import Enter from "./pages/Enter";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Route path="/pizza/:id" element={<FullPizza />} />
         <Route path="/basket" element={<Basket />} />
         <Route path="/modal" element={<ModalContent />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/enter" element={<Enter />} />
       </Routes>
     </div>
   );

@@ -28,7 +28,9 @@ export default function Header() {
             </div>
           </div>
           <div className="header__buttons">
-            <button className="enter">Войти</button>
+            <Link to="/login">
+              <button className="enter">Войти</button>
+            </Link>
             <Link to="/basket">
               <button>Корзина</button>
             </Link>

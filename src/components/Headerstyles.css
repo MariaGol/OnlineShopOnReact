@@ -343,10 +343,73 @@ h6 {
 .basketItem__btn span {
   text-align: center;
 }
-/* .deletePizza {
-  margin-left: 10px;
-} */
 
 .makeOrder {
   background-color: green;
+}
+
+.login {
+  background-color: rgba(253, 110, 0, 1);
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+.input {
+  background-color: #e3e1e1;
+  border: none;
+  border-radius: 5px;
+  padding: 2px 5px;
+  font-size: 12px;
+}
+.form__title {
+  color: white;
+  font-size: 12px;
+}
+.form__input {
+  margin-bottom: 20px;
+  position: relative;
+}
+.error {
+  font-size: 10px;
+  color: #e3e1e1;
+  position: absolute;
+  left: 155px;
+  bottom: -17px;
+}
+.login__btn {
+  margin-right: 20px;
+}
+.login__btn:active {
+  background-color: #bab8b8;
+}
+.signIn {
+  background-color: green;
+  margin-top: 10px;
+}
+.signIn:disabled {
+  background-color: grey;
+  animation: none;
+  pointer-events: none;
+}
+.enter__btn {
+  background-color: rgb(219, 216, 216);
+  color: rgb(88, 86, 86);
+  margin-left: 5px;
+}
+.enter__btn__active {
+  background-color: rgba(253, 110, 0, 1);
+  color: white;
+}
+.login__btn__active {
+  background-color: rgba(253, 110, 0, 1);
+  color: white;
+}
+.login__btn__enter {
+  background-color: rgb(219, 216, 216);
+  color: rgb(88, 86, 86);
+  margin-right: 5px;
 }
